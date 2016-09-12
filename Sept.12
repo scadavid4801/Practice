@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+main(){
+
+int val1
+int val2
+int val3
+int sub
+
+printf("Enter first digit here\n")
+scanf("%i", &val1);
+
+printf("Enter second digit here/n")
+scanf("%i, &val2);
+
+sub = val1 - val2;
+
+printf("sub is %.2f /n/n", sub);
+
+}
